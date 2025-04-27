@@ -1,3 +1,4 @@
+package PACKAGE_NAME;
 import javax.swing.*;
 
 public class Joptionpane_05 {
