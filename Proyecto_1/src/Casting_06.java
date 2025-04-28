@@ -3,7 +3,6 @@ package PACKAGE_NAME;
 public class Casting_06 {
     public static void main(String[] args) {
         // De texto a entero
-
         String numeroTexto = "123";
         int numeroEntero = Integer.parseInt(numeroTexto);
         System.out.println("Numero entero: " + numeroEntero);

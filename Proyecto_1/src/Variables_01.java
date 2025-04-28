@@ -1,3 +1,5 @@
+package PACKAGE_NAME;
+
 public class Variables_01 {
     public static void main(String[] args) {
         String name = "Sebastian"; // class String
