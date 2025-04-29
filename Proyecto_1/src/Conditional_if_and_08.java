@@ -2,7 +2,7 @@ package PACKAGE_NAME;
 
 import javax.swing.*;
 
-public class Conditional_if_08 {
+public class Conditional_if_and_08 {
     public static void main(String[] args) {
         String name;
         int age;
