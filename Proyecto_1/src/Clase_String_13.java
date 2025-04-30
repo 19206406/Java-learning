@@ -49,6 +49,20 @@ public class Clase_String_13 {
         System.out.println("Cantidad de caracteres " + word2 + ": " + word2.length());
 
         // identificar varios caractes en un texto o palabra
-        System.out.println(word1.substring(1, 3));
+        System.out.println("Primeras 3 letras: " + word1.substring(0, 3));
+
+        // Buscar caracteres que coincidan en dos palabras
+        int coincidence = word1.indexOf(word2);
+        if ( coincidence == -1 ) {
+            System.out.println(word1 + " no contiene: " + word2);
+        } else {
+            System.out.println(word1 + " tiene coincidencia con: " + word2);
+        }
+
+        // llevar a mayuscula
+        System.out.println(word1 + " en mayúscula es: " + word1.toUpperCase());
+
+        //llevar a minusculas
+        System.out.println(word1 + " en minuscula es: " + word1.toLowerCase());
     }
 }
