@@ -15,5 +15,12 @@ public class Arreglos_operaciones_24 {
         }
 
         System.out.println("Suma total = " + suma);
+
+        System.out.println("Resta de valores");
+        for (int i = 0; i < ventas1.length; i++) {
+            total[i] = ventas1[i] - ventas2[i];
+            suma += total[i];
+            System.out.println(total[i]);
+        }
     }
 }
